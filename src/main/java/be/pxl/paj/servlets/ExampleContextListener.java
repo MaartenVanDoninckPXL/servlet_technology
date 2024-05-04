@@ -6,7 +6,6 @@ import jakarta.servlet.annotation.WebListener;
 
 @WebListener
 public class ExampleContextListener implements ServletContextListener {
-
 	@Override
 	public void contextInitialized(ServletContextEvent servletContextEvent) {
 		System.out.println("ServletDemo starting up!");
